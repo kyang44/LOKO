@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>LOKO</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/site.css" media="all" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+    <!--
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="apple-touch-icon.png">
+
+    <link rel="icon" type="image/png" sizes="196x196" href="icon.png"> -->
+</head>
+
+<body>
+    <header>
+        <div class="navlogo">
+            <div class="logo">
+                <a href="index.html">
+                    <picture>
+                        <img src="images/logo.jpeg" alt="LOKO logo">
+                    </picture>
+                </a>
+            </div>
+
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a class="pages" href="index.html">Home</a></li>
+
+                        <li><a class="pages" href="members.html">Members</a></li>
+
+                        <li><a class="pages" href="performances.html">Performances</a></li>
+
+                        <li><a class="pages" href="socials.html">Socials</a></li>
+
+                        <li><a class="pages" href="auditions.html">Auditions</a></li>
+                    </ul>
+                </nav>
+
+                <button type="button" id="hamburgerIcon" aria-label="display navigation bar">
+
+                    <span>
+                    </span>
+
+                    <span>
+                    </span>
+
+                    <span>
+                    </span>
+
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div id="sideBar" class="hidden">
+        <button type="button" id="closeIcon" aria-label="close the sidebar">
+            &#215;
+        </button>
+
+        <nav>
+            <ul>
+                <li><a class="pages" href="index.html">Home</a></li>
+
+                <li><a class="pages" href="members.html">Members</a></li>
+
+                <li><a class="pages" href="performances.html">Performances</a></li>
+
+                <li><a class="pages" href="socials.html">Socials</a></li>
+
+                <li><a class="pages" href="auditions.html">Auditions</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <h1 class="bebold">
+            Be Bold, Be LOKO.
+        </h1>
+
+        <div id="groupPhotoCarousel">
+            <div id="groupPhoto1" class="groupPhoto hidden">
+                <button type="button" class="button leftArrow" aria-label="show the previous photo of the carousel">
+                    &#60;
+                </button>
+
+                <picture>
+                    <img src="images/homepage1.jpg" alt="Group Photo 1" width="800" height="540" class="pic">
+                </picture>
+
+                <button type="button" class="button rightArrow" aria-label="show the next photo of the carousel">
+                    &#62;
+                </button>
+            </div>
+
+            <div id="groupPhoto2" class="groupPhoto">
+                <button type="button" class="button leftArrow" aria-label="show the previous photo of the carousel">
+                    &#60;
+                </button>
+
+                <picture>
+                    <img src="images/homepage2.jpeg" alt="Group Photo 2" width="800" height="540" class="pic">
+                </picture>
+
+                <button type="button" class="button rightArrow" aria-label="show the next photo of the carousel">
+                    &#62;
+                </button>
+            </div>
+
+            <div id="groupPhoto3" class="groupPhoto hidden">
+                <button type="button" class="button leftArrow" aria-label="show the previous photo of the carousel">
+                    &#60;
+                </button>
+
+                <picture>
+                    <img src="images/homepage3.jpg" alt="Group Photo 3" width="800" height="540" class="pic">
+                </picture>
+
+                <button type="button" class="button rightArrow" aria-label="show the next photo of the carousel">
+                    &#62;
+                </button>
+            </div>
+        </div>
+
+        <!-- Images Source: LOKO Photo Archive -->
+
+        <p class="description"><em>LOKO</em> is a <em>Cornell University-based dance crew</em> founded in 2015 that is aimed at promoting Korean music, fine arts, and culture through dance performances and videos. As a contemporary dance group, we <em>specialize in but are not limited to, K-pop and K-hip hop dances.</em> We explore not only the realm of Korean culture but also the intertwining of global music genres and Korean music. LOKO has a special commitment to <em>promoting awareness of Korean music</em> not only to the Cornell community <em>through performances on campus</em> but also to the public <em>through official choreography videos online.</em></p>
+
+        <div class="rowSocial">
+            <div class="socialMediaPhoto">
+                <!-- Source: https://commons.wikimedia.org/wiki/File:Instagram-Icon.png -->
+                <a href="https://www.instagram.com/loko_cornell/" target="_blank">
+                    <picture>
+                        <img src="images/instagramLogo.png" alt="Instagram logo" width="100" height="100" class="insta">
+                    </picture>
+                </a>
+            </div>
+
+            <div class="socialMediaPhoto">
+                <!-- Source: https://www.freepnglogos.com/images/youtube-logo-png-2067.html -->
+                <a href="https://www.youtube.com/c/LOKOCornell/" target="_blank">
+                    <picture>
+                        <img src="images/youtubeLogo.png" alt="Youtube logo" width="100" height="70" class="youtube">
+                    </picture>
+                </a>
+            </div>
+
+            <div class="socialMediaPhoto">
+                <!-- Source: https://en.m.wikipedia.org/wiki/File:Facebook_Logo_%282019%29.png -->
+                <a href="https://www.facebook.com/CornellLOKO/" target="_blank">
+                    <picture>
+                        <img src="images/facebookLogo.png" alt="Facebook logo" width="100" height="100" class="facebook">
+                    </picture>
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="scripts/jquery-3.6.1.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/carousel.js"></script>
+</body>
+</html>
